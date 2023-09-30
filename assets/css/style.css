@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    min-height: 500px;
+    background-image: url(../img/esfera-azul-brilhante-segurada-por-mao-humana-gerada-por-ia_188544-41033.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header .header-border{
+    min-height: 500px;
+    border-bottom: rgba(255, 255, 255, 0.5);
+}
+.bg-gradiente{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    min-height: 300px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+} 
+.menu{
+    flex: 1;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu li{
+  min-width: 180px;
+ line-height: 28px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-weight: 900;
+}
+#register{
+     background-color: #ffffffb6;
+     width: 100%;
+     height: 400px;
+     max-width: 350px;
+     position: absolute;
+     bottom: 0;
+     right: 10vw;
+     box-shadow: 0 0 2.1 rem rgba(0, 0, 0, 0.2);
+     border-top-right-radius: 0.3 ;
+     border-top-left-radius: 0.3 ;
+     color: black;
+     padding: 20px;
+     margin-top: 30px;
+}
+#register p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#register .flid{
+   width: 100%;
+   margin-bottom: 20px;
+}
+#register input{
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius:4px ;
+    border: 1px solid #ccc;
+}
+#register input[type=radio]{
+    width: 25px;
+}
+#register button{
+    width: 100%;
+    border: none;
+    height: 50px;
+    background-color: #5980eb;
+    color: white;
+    font-size: 1.2rem;
+    pad: 0.75rem ;
+}
+#register button:hover{
+    background-color: #4a70da;
+    cursor: pointer;
+}
